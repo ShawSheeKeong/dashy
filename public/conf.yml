@@ -26,4 +26,21 @@ sections:
     url: https://cheetahdigital.atlassian.net/wiki/spaces/~624e5ea87a3f9e006ab6d0d2/overview?homepageId=40499609977
     icon: fas fa-page
     target: newtab
-
+- name: Team Env
+  icon: fas fa-regular fa-globe
+  items:
+  - title: Mahes
+    url: http://10.24.228.44
+    target: newtab
+  - title: JPN
+    url: 
+    target: newtab
+  - title: Syafeeq
+    url: http://10.24.228.32
+    target: newtab
+  - title: Kevin
+    url: http://10.24.228.28
+    target: newtab
+  - title: Chin Yin
+    url: http://10.24.228.29
+    target: newtab
