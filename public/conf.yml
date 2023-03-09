@@ -50,7 +50,7 @@ sections:
   - title: Services Help
     url: http://localhost/services/help
     target: newtab
-   - title: Services2 Help
+  - title: Services2 Help
     url: http://localhost/services2/help
     target: newtab
 - name: Production
