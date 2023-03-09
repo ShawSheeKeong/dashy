@@ -13,35 +13,81 @@ pageInfo:
 appConfig:
   theme: colorful
 
-# Main content - An array of sections, each containing an array of items
 sections:
-- name: Getting Started
-  icon: fas fa-rocket
+- name: Team 6
+  icon: fas fa-solid fa-house
   items:
-  - title: Dashy Live
-    description: Development a project management links for Dashy
-    icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-    url: https://live.dashy.to/
+  - title: Team 6 Board
+    url: https://cheetahdigital.atlassian.net/jira/software/c/projects/MAPP/boards/80
+    icon: fas fa-sharp fa-regular fa-square-kanban
     target: newtab
-  - title: GitHub
-    description: Source Code, Issues and Pull Requests
-    url: https://github.com/lissy93/dashy
-    icon: favicon
-  - title: Docs
-    description: Configuring & Usage Documentation
-    provider: Dashy.to
-    icon: far fa-book
-    url: https://dashy.to/docs
-  - title: Showcase
-    description: See how others are using Dashy
-    url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
-    icon: far fa-grin-hearts
-  - title: Config Guide
-    description: See full list of configuration options
-    url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
-    icon: fas fa-wrench
-  - title: Support
-    description: Get help with Dashy, raise a bug, or get in contact
-    url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
-    icon: far fa-hands-helping
+  - title: Confluence
+    url: https://cheetahdigital.atlassian.net/wiki/spaces/~624e5ea87a3f9e006ab6d0d2/overview?homepageId=40499609977
+    icon: fas fa-page
+    target: newtab
+    
+sections:
+- name: CCMP
+  icon: fas fa-solid fa-messages
+  items:
+  - title: Main Ux
+    url: http://localhost
+    target: newtab
+  - title: ADM
+    url: http://localhost/adm/
+    target: newtab
+  - title: CMS
+    url: http://localhost/cms/adm/
+    target: newtab
+  - title: DMS
+    url: http://localhost/dms/adm/
+    target: newtab
+  - title: Merge
+    url: http://localhost/merge/adm/
+    target: newtab
+  - title: Ux ADM
+    url: http://localhost/ux/adm
+    target: newtab
+  - title: Services Help
+    url: http://localhost/services/help
+    target: newtab
+   - title: Services2 Help
+    url: http://localhost/services2/help
+    target: newtab
   
+sections:
+- name: Production
+  icon: fas fa-regular fa-globe
+  items:
+  - title: NA
+    url: https://login.eccmp.com/ux/Ux/Main
+    target: newtab
+  - title: JPN
+    url: 
+    target: newtab
+  - title: EMEA
+    url: https://login.ccmp.eu/ux/Ux/Main
+    target: newtab
+  - title: QA
+    url: https://loginqa.eccmp.com/ux/Ux/Main
+    target: newtab
+    
+ sections:
+- name: Team Env
+  icon: fas fa-regular fa-globe
+  items:
+  - title: Mahes
+    url: http://10.24.228.44
+    target: newtab
+  - title: JPN
+    url: 
+    target: newtab
+  - title: Syafeeq
+    url: http://10.24.228.32
+    target: newtab
+  - title: Kevin
+    url: http://10.24.228.28
+    target: newtab
+  - title: Chin Yin
+    url: http://10.24.228.29
+    target: newtab
