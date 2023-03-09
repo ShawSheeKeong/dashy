@@ -26,8 +26,6 @@ sections:
     url: https://cheetahdigital.atlassian.net/wiki/spaces/~624e5ea87a3f9e006ab6d0d2/overview?homepageId=40499609977
     icon: fas fa-page
     target: newtab
-    
-sections:
 - name: CCMP
   icon: fas fa-solid fa-messages
   items:
@@ -55,8 +53,6 @@ sections:
    - title: Services2 Help
     url: http://localhost/services2/help
     target: newtab
-  
-sections:
 - name: Production
   icon: fas fa-regular fa-globe
   items:
@@ -72,8 +68,6 @@ sections:
   - title: QA
     url: https://loginqa.eccmp.com/ux/Ux/Main
     target: newtab
-    
- sections:
 - name: Team Env
   icon: fas fa-regular fa-globe
   items:
