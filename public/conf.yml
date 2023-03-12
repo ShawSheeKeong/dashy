@@ -28,11 +28,11 @@ sections:
     target: newtab
   - title: My Ticket
     url: https://cheetahdigital.atlassian.net/browse/MAPP-42043?filter=19990&jql=assignee%20in%20(624e5ea87a3f9e006ab6d0d2)%20AND%20project%20%3D%20MAPP%20AND%20status%20in%20(Backlog%2C%20%22In%20Progress%22%2C%20Selected)%20order%20by%20created%20DESC
-    icon: far fa-ticket
+    icon: fas fa-ticket
     target: newtab
   - title: Pull Request
     url: https://bitbucket.org/cxplatform/ccmp/pull-requests/
-    icon: fas fa-bitbucket
+    icon: fas fa-code-branch
     target: newtab
 - name: Production
   icon: fas fa-regular fa-globe
@@ -57,15 +57,19 @@ sections:
   icon: fas fa-tachometer-fastest
   items:
   - title: Mahes
+    icon: far fa-desktop
     url: http://10.24.228.44
     target: newtab
   - title: Syafeeq
+    icon: far fa-desktop
     url: http://10.24.228.32
     target: newtab
   - title: Kevin
+    icon: far fa-desktop
     url: http://10.24.228.28
     target: newtab
   - title: Chin Yin
+    icon: far fa-desktop
     url: http://10.24.228.29
     target: newtab
 - name: CCMP
