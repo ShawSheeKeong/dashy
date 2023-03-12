@@ -15,6 +15,10 @@ appConfig:
 
 # Main content - An array of sections, each containing an array of items
 sections:
+- type: gl-cpu-history
+  options:
+    hostname: http://localhost
+    limit: 60
 - name: Team 6
   icon: fas fa-solid fa-house
   items:
@@ -26,32 +30,13 @@ sections:
     url: https://cheetahdigital.atlassian.net/wiki/spaces/~624e5ea87a3f9e006ab6d0d2/overview?homepageId=40499609977
     icon: fas fa-page
     target: newtab
-- name: CCMP
-  icon: fas fa-solid fa-messages
-  items:
-  - title: Main Ux
-    url: http://localhost
+  - title: My Ticket
+    url: https://cheetahdigital.atlassian.net/browse/MAPP-42043?filter=19990&jql=assignee%20in%20(624e5ea87a3f9e006ab6d0d2)%20AND%20project%20%3D%20MAPP%20AND%20status%20in%20(Backlog%2C%20%22In%20Progress%22%2C%20Selected)%20order%20by%20created%20DESC
+    icon: fas fa-solid fa-ticket
     target: newtab
-  - title: ADM
-    url: http://localhost/adm
-    target: newtab
-  - title: CMS
-    url: http://localhost/cms/adm
-    target: newtab
-  - title: DMS
-    url: http://localhost/dms/adm
-    target: newtab
-  - title: Merge
-    url: http://localhost/merge/adm
-    target: newtab
-  - title: Ux ADM
-    url: http://localhost/ux/adm
-    target: newtab
-  - title: Services Help
-    url: http://localhost/services/help
-    target: newtab
-  - title: Services2 Help
-    url: http://localhost/services2/help
+  - title: Pull Request
+    url: https://bitbucket.org/cxplatform/ccmp/pull-requests/
+    icon: fas fa-solid fa-code-pull-request-draft
     target: newtab
 - name: Production
   icon: fas fa-regular fa-globe
@@ -82,4 +67,40 @@ sections:
     target: newtab
   - title: Chin Yin
     url: http://10.24.228.29
+    target: newtab
+- name: CCMP
+  icon: fas fa-solid fa-messages
+  items:
+  - title: Main Ux
+    url: http://localhost
+    target: newtab
+  - title: ADM
+    url: http://localhost/adm
+    target: newtab
+  - title: CMS
+    url: http://localhost/cms/adm
+    target: newtab
+  - title: DMS
+    url: http://localhost/dms/adm
+    target: newtab
+  - title: Merge
+    url: http://localhost/merge/adm
+    target: newtab
+  - title: Ux ADM
+    url: http://localhost/ux/adm
+    target: newtab
+  - title: Services Help
+    url: http://localhost/services/help
+    target: newtab
+  - title: Services2 Help
+    url: http://localhost/services2/help
+    target: newtab
+  - title: Push
+    url: http://localhost/push/adm
+    target: newtab
+  - title: XTS
+    url: http://localhost/xts/adm
+    target: newtab
+  - title: XTS Registration
+    url: http://localhost/xts/registration
     target: newtab
