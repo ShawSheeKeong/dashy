@@ -24,11 +24,11 @@ sections:
   items:
   - title: Team 6 Board
     url: https://cheetahdigital.atlassian.net/jira/software/c/projects/MAPP/boards/80
-    icon: fas fa-sharp fa-regular fa-square-kanban
+    icon: fas fa-solid fa-square-kanban
     target: newtab
   - title: Confluence
     url: https://cheetahdigital.atlassian.net/wiki/spaces/~624e5ea87a3f9e006ab6d0d2/overview?homepageId=40499609977
-    icon: fas fa-page
+    icon: fas fa-solid fa-page
     target: newtab
   - title: My Ticket
     url: https://cheetahdigital.atlassian.net/browse/MAPP-42043?filter=19990&jql=assignee%20in%20(624e5ea87a3f9e006ab6d0d2)%20AND%20project%20%3D%20MAPP%20AND%20status%20in%20(Backlog%2C%20%22In%20Progress%22%2C%20Selected)%20order%20by%20created%20DESC
@@ -69,7 +69,7 @@ sections:
     url: http://10.24.228.29
     target: newtab
 - name: CCMP
-  icon: fas fa-solid fa-messages
+  icon: fas fa-messages
   items:
   - title: Main Ux
     url: http://localhost
@@ -95,8 +95,32 @@ sections:
   - title: Services2 Help
     url: http://localhost/services2/help
     target: newtab
+  - title: Aet SMS
+    url: http://localhost/aetsms/adm
+    target: newtab
+  - title: ATS
+    url: http://localhost/ats/adm
+    target: newtab
+  - title: IRS
+    url: http://localhost/irs/adm
+    target: newtab
+  - title: IMS
+    url: http://localhost/ims/adm
+    target: newtab
+  - title: LINE Partner
+    url: http://localhost/line/callback/100
+    target: newtab
+  - title: R
+    url: http://localhost/r/adm
+    target: newtab
+  - title: RTS
+    url: http://localhost/rts/adm
+    target: newtab
   - title: Push
     url: http://localhost/push/adm
+    target: newtab
+  - title: WTS
+    url: http://localhost/wts/adm
     target: newtab
   - title: XTS
     url: http://localhost/xts/adm
