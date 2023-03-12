@@ -24,11 +24,11 @@ sections:
     target: newtab
   - title: Confluence
     url: https://cheetahdigital.atlassian.net/wiki/spaces/~624e5ea87a3f9e006ab6d0d2/overview?homepageId=40499609977
-    icon: fas fa-confluence
+    icon: fas fa-file
     target: newtab
   - title: My Ticket
     url: https://cheetahdigital.atlassian.net/browse/MAPP-42043?filter=19990&jql=assignee%20in%20(624e5ea87a3f9e006ab6d0d2)%20AND%20project%20%3D%20MAPP%20AND%20status%20in%20(Backlog%2C%20%22In%20Progress%22%2C%20Selected)%20order%20by%20created%20DESC
-    icon: fas fa-ticket
+    icon: far fa-ticket
     target: newtab
   - title: Pull Request
     url: https://bitbucket.org/cxplatform/ccmp/pull-requests/
@@ -50,10 +50,11 @@ sections:
     url: https://login.ccmp.eu/ux/Ux/Main
     target: newtab
   - title: QA
+    icon: fas fa-users
     url: https://loginqa.eccmp.com/ux/Ux/Main
     target: newtab
 - name: Team Env
-  icon: fas fa-regular fa-globe
+  icon: fas fa-tachometer-fastest
   items:
   - title: Mahes
     url: http://10.24.228.44
@@ -68,7 +69,7 @@ sections:
     url: http://10.24.228.29
     target: newtab
 - name: CCMP
-  icon: fas fa-messages
+  icon: fas fa-comments-alt
   items:
   - title: Main Ux
     url: http://localhost
